@@ -22,4 +22,21 @@ Neste assignment, você criará um workflow usando a biblioteca Prefect para rea
 2. Instale as dependências: `pip install -r requirements.txt`.
 3. Execute o workflow: `python main.py`.
 
+Neste assignment, você criará e executará um workflow no **Prefect Cloud**.
+
+## Configuração
+
+### 1. Criar uma conta no Prefect Cloud
+- Acesse [Prefect Cloud](https://app.prefect.io/) e crie uma conta.
+- Obtenha sua **API Key**:
+  - Vá para **Account Settings** > **API Keys** > **Create API Key**.
+  - Copie a chave gerada.
+
+### 2. Configurar o Prefect no seu ambiente local
+- No terminal, faça login no Prefect Cloud:
+  ```bash
+  prefect cloud login
+  ```
+  - Insira sua API Key quando solicitado.
+
 Bom trabalho!
